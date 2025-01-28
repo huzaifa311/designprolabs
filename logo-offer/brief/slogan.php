@@ -46,22 +46,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="flex justify-center items-center h-screen ">
       <div class="bg-white sm:p-7 px-0 py-10 rounded-xl border border-[#ddd]">
         <div class="flex justify-center mb-10 items-center whitespace-nowrap">
-          <div class="w-9 h-9 rounded-full flex justify-center items-center  bg-[#FE5F00] text-white">
+          <div class="sm:w-9 sm:h-9 w-7 h-7 rounded-full flex justify-center items-center bg-[#FE5F00] text-white">
             1
           </div>
-          <div class="sm:w-20 w-14 h-px bg-black"></div>
+          <div class="sm:w-20 w-11 h-px bg-black"></div>
           <div class="w-8 h-8 rounded-full flex justify-center items-center border border-black">
             2
           </div>
-          <div class="sm:w-20 w-14 h-px bg-black"></div>
+          <div class="sm:w-20 w-11 h-px bg-black"></div>
           <div class="w-8 h-8 rounded-full flex justify-center items-center border border-black">
             3
           </div>
-          <div class="sm:w-20 w-14 h-px bg-black"></div>
+          <div class="sm:w-20 w-11 h-px bg-black"></div>
           <div class="w-8 h-8 rounded-full flex justify-center items-center border border-black">
             4
           </div>
-          <div class="sm:w-20 w-14 h-px bg-black"></div>
+          <div class="sm:w-20 w-11 h-px bg-black"></div>
           <div class="w-8 h-8 rounded-full flex justify-center items-center border border-black">
             5
           </div>

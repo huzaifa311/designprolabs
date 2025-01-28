@@ -39,8 +39,11 @@
 
   <section id="home" class="sm:!h-screen min-h-screen !h-fit sm:py-0 pt-40 pb-28 w-full relative flex items-center">
     <div class="sm:w-[80%] w-full mx-auto z-20 2xl:w-[1500px] text-white">
-      <h3 class="text-center text-sm font-semibold">Custom Logo Creator</h3>
-      <h1 class="text-center font-bold sm:text-[48px] text-[36px] leading-[1.2] mt-1 flex flex-wrap justify-center sm:w-[530px] w-[340px] mx-auto" id="sentence"></h1>
+      <!-- <h3 class="text-center text-sm font-semibold">Custom Logo Creator</h3> -->
+      <h1
+        class="text-center font-bold sm:text-[48px] text-[36px] leading-[1.2] mt-1 sm:!flex !hidden flex-wrap justify-center sm:w-[600px] w-0 mx-auto"
+        id="sentence"></h1>
+        <h1 class="w-[90vw] sm:w-0 flex justify-center sm:hidden text-center mx-auto font-bold text-[36px] leading-[1.2] mt-1">Need a Logo That Stands Out? Kickstart the Design Process With Us!</h1>
       <form id="companyForm" class="flex flex-col justify-center mt-8">
         <div class="relative flex justify-center mx-auto md:w-[400px]">
           <input id="companyName" type="text" required

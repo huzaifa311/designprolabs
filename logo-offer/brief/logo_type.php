@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="w-9 h-9 rounded-full flex justify-center items-center  bg-[#FE5F00] text-white">
             4
           </div>
-          <div class="sm:w-20 w-14 h-px bg-black"></div>
+          <div class="sm:w-20 w-11 h-px bg-black"></div>
           <div class="w-8 h-8 rounded-full flex justify-center items-center border border-black">
             5
           </div>

@@ -36,11 +36,11 @@ async function sendFormData(obj) {
         });
 
         console.log(res);
-        
+
     } catch (error) {
         alert("An error occurred. Please try again.");
         console.log(error);
-        
+
     }
 }
 
@@ -48,7 +48,7 @@ const submitBtn = document.getElementById("submitBtn");
 submitBtn.addEventListener("click", async () => {
     submitBtn.disabled = true;
     try {
-        
+
         const obj = buildPayloadObject();
         if (!obj.name) {
             alert("Name is required");
@@ -61,7 +61,7 @@ submitBtn.addEventListener("click", async () => {
         await sendFormData(obj);
         localStorage.setItem("email", obj.email)
         localStorage.setItem("phone", obj.phone)
-        window.location.href = "../formsubmitted.php";
+        window.location.href = `checkout.php?id=${obj.id}&cname=${encodeURIComponent(obj.company_name)}&slogan=${encodeURIComponent(obj.slogan)}&industry=${encodeURIComponent(obj.industry)}&color_picker=${encodeURIComponent(obj.color_picker)}&logo_type=${encodeURIComponent(obj.logo_type)}&name=${encodeURIComponent(obj.name)}&email=${encodeURIComponent(obj.email)}&phone=${encodeURIComponent(obj.phone)}`;
         submitBtn.disabled = false;
     } catch (error) {
         alert(error)
