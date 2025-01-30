@@ -5919,3 +5919,40 @@ body {
 .marketing-Pading>div{
     padding-right: 0 !important;
 }
+
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 10px;
+    color: #cbd6e2;
+}
+
+.copy-right p{
+    margin: 0 !important;
+}
+
+@media (max-width: 500px) {
+    .copy-right{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.copy-right .policy{
+    display: flex;
+    align-items: center;
+}
+
+.copy-right .policy a{
+    text-decoration: none;
+    color: #cbd6e2;
+}
+
+.copy-right .social{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
