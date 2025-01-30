@@ -1,0 +1,68 @@
+#pagesRange {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+/* Track styling */
+#pagesRange::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    border-radius: 8px;
+}
+
+#pagesRange::-moz-range-track {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    border-radius: 8px;
+}
+
+#pagesRange::-ms-track {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Thumb styling (Controller) */
+#pagesRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #FE5F00;
+    margin-top: -10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#pagesRange::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #FE5F00;
+    margin-top: -10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#pagesRange::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: #FE5F00;
+    margin-top: -10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+/* Hover/Active Effect for Thumb */
+#pagesRange::-webkit-slider-thumb:hover,
+#pagesRange::-moz-range-thumb:hover,
+#pagesRange::-ms-thumb:hover {
+    transform: scale(1.1);
+}
