@@ -29,7 +29,7 @@
                 </ul>
             </div>
         </div>
-        <div class="flex justify-between md:flex-row flex-col mt-6 items-start md:gap-0 gap-10">
+        <div class="flex justify-between md:flex-row flex-col mt-6 items-start md:gap-0 gap-10 md:mr-7">
             <p class="md:w-[65%] text-left md:text-center text-sm text-gray-500">These Terms will be applied fully and
                 affect to your use of this Website. By using this Website, you agreed to accept all terms and conditions
                 written in here. You must not use this Website if you disagree with any of these Website Standard Terms

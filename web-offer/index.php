@@ -76,7 +76,7 @@ include 'include/header.php'; ?>
     </div>
     <form onSubmit="handleBannerForm(event, 'BannerFormWebsite')"
       class="bg-white shadow-2xl !border-2 !border-[#E4FF3E] !outline-[#E4FF3E] py-4 px-8 md:w-[93%] col-span-2 w-full h-fit mx-auto rounded-xl relative">
-      <h1 class="text-center text-[#FE5F00] text-2xl font-bold mb-3">Limited Time Offer</h1>
+      <h1 class="text-center text-[#FE5F00] text-2xl font-bold mb-3">100% Money Back Guarantee</h1>
       <div class="space-y-4">
         <div>
           <input placeholder="Name" type="text" id="name"
