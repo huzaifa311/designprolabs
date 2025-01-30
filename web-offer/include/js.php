@@ -88,5 +88,10 @@
         s1.setAttribute("crossorigin", "*");
         s0.parentNode.insertBefore(s1, s0);
     })();
+
+    Tawk_API.onLoad = function () {
+        Tawk_API.maximize();
+    };
 </script>
+
 <!--End of Tawk.to Script-->
