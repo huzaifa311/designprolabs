@@ -82,14 +82,16 @@ var btn = document.getElementById("orderBtn");
 var span = document.getElementById("closeBtn");
 
 // When the user clicks the button, open the modal
-btn.addEventListener("click", function () {
-  modal.style.display = "block";
-});
+if (btn, span) {
+  btn.addEventListener("click", function () {
+    modal.style.display = "block";
+  });
 
-// When the user clicks on <span> (x), close the modal
-span.addEventListener("click", function () {
-  modal.style.display = "none";
-});
+  // When the user clicks on <span> (x), close the modal
+  span.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+}
 // When the user clicks anywhere outside of the modal, close it
 window.addEventListener("click", function (event) {
   if (event.target == modal) {
@@ -183,7 +185,7 @@ async function handleSubscribeForm(e, submitted_from) {
   const email = document.getElementById("subEmail").value;
   const phone = document.getElementById("subPhone").value;
   const description = "Field Not available in form";
-  
+
   const objToSend = {
     name,
     email,
@@ -216,7 +218,7 @@ async function handleFooterForm(e, submitted_from) {
   const email = document.getElementById("footerEmail").value;
   const phone = document.getElementById("footerPhone").value;
   const description = document.getElementById("footerMessage").value;
-  
+
   const objToSend = {
     name,
     email,
@@ -239,5 +241,14 @@ async function handleFooterForm(e, submitted_from) {
   } catch (error) {
     console.error("Error during API call:", error);
     alert("An error occurred while submitting the form. Please try again.");
+  }
+}
+
+function openTawkChat() {
+  console.log("clicked")
+  if (typeof Tawk_API !== 'undefined' && Tawk_API.toggle) {
+    Tawk_API.toggle();
+  } else {
+    console.error("Tawk.to is not loaded yet.");
   }
 }

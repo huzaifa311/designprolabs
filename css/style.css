@@ -1691,7 +1691,6 @@ a.out-cmp-btn {
 .package-wrapper {
     background-color: #fafeff;
     border-radius: 16px 0px 16px 0px;
-    overflow: hidden;
     margin-top: 20px;
     margin-bottom: 0px;
     transition: box-shadow 300ms ease 0ms, box-shadow 300ms ease 0ms, box-shadow 300ms ease 0ms, background-color 300ms ease 0ms, background-image 300ms ease 0ms;
@@ -5981,4 +5980,20 @@ html {
 .orderNow {
     display: flex;
     justify-content: center;
+}
+
+.package-wrapper{
+    position: relative;
+}
+
+.package-wrapper .recommended{
+    position: absolute;
+    right: -24px;
+    top: -30px;
+    height: 120px;
+    transform: rotate(25deg);
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
 }

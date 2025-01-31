@@ -4,13 +4,13 @@
 <head>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-          'gtm.start':
-            new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-53QMJ7J8');
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-53QMJ7J8');
     </script>
     <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
@@ -37,10 +37,10 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53QMJ7J8"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53QMJ7J8" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <div class="container">
             <div class="col-md-7 col-xs-12 col-sm-7">
@@ -64,7 +64,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                     aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
@@ -111,7 +111,7 @@
                             </li>
                             <!-- <li><a href="packages.html">Packages</a></li> -->
                             <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
+                            <li class="active activeImp"><a href="pricing.html">Pricing</a></li>
                             <li><a href="reviews.html">Reviews</a></li>
                             <li><a href="faqs.html">Faqs</a></li>
                         </ul>
@@ -127,7 +127,8 @@
                                 294-9609</a>
                         </li>
                         <li>
-                            <a><i class="fa fa-comments" aria-hidden="true"></i> Live
+                            <a class="cursor-pointer" onclick="openTawkChat()"><i class="fa fa-comments"
+                                    aria-hidden="true"></i> Live
                                 Chat</a>
                         </li>
                         <li>
@@ -311,7 +312,7 @@
                                             <li><strong>5</strong> Stock Images</li>
                                             <li>Complete W3C Certified HTML</li>
                                             <li>Google Optimised Sitemap</li>
-                                            <li>48 to 72 hours TAT</li>
+                                            <li>24-48 hours TAT</li>
                                             <li>FREE Domain & Hosting</li>
                                             <strong>Features:</strong>
                                             <li>100% Ownership Rights</li>
@@ -333,7 +334,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -343,7 +344,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -424,7 +426,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -434,7 +436,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -515,7 +518,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -525,12 +528,14 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
+                                <img class="recommended" src="./images/recommended.webp" alt="recommended">
                             </div>
                         </div>
                     </div>
@@ -574,7 +579,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -584,7 +589,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -630,7 +636,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -640,7 +646,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -655,7 +662,7 @@
                                         <div class="pkg-img-type">
                                             <!-- <i class="fa fa-bicycle gre"></i> -->
                                         </div>
-                                        <h2 class="pkge-name">deluxe</h2>
+                                        <h2 class="pkge-name">corporate</h2>
                                         <p>LOGO PACKAGE</p>
                                     </div>
                                     <div class="old-price">
@@ -689,7 +696,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -699,12 +706,14 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
+                                <img class="recommended" src="./images/recommended.webp" alt="recommended">
                             </div>
                         </div>
                     </div>
@@ -714,7 +723,7 @@
                                 <div class="package-item">
                                     <div class="heading">
                                         <div class="pkg-img-type"></div>
-                                        <h2 class="pkge-name">Premium</h2>
+                                        <h2 class="pkge-name">deluxe </h2>
                                         <p>LOGO PACKAGE</p>
                                     </div>
                                     <div class="old-price">
@@ -746,7 +755,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -756,7 +765,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -769,7 +779,7 @@
                                 <div class="package-item">
                                     <div class="heading">
                                         <div class="pkg-img-type"></div>
-                                        <h2 class="pkge-name">CORPORATE</h2>
+                                        <h2 class="pkge-name">premium </h2>
                                         <p>LOGO PACKAGE</p>
                                     </div>
                                     <div class="old-price">
@@ -789,7 +799,7 @@
                                             <li>FREE MS Electronic Letterhead</li>
                                             <li>Email Signature Design</li>
                                             <li>UNLIMITED Revisions</li>
-                                            <li>48 to 72 hours TAT</li>
+                                            <li>24-48 hours TAT</li>
                                             <li>100% Ownership Rights</li>
                                             <li>100% Satisfaction Guarantee</li>
                                             <li>100% Unique Design Guarantee</li>
@@ -806,7 +816,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -816,7 +826,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -828,34 +839,32 @@
                 </div>
                 <div id="branding" class="tab-pane fade">
                     <div class="row">
+                        <!-- Startup -->
                         <div class="col-lg-4 col-md-4 col-sm-12 btn-hvr">
                             <div class="package-wrapper gre-border">
                                 <div class="package-item">
                                     <div class="heading">
-                                        <div class="pkg-img-type"></div>
-                                        <h2 class="pkge-name">Budget</h2>
-                                        <p>Branding PACKAGE</p>
+                                        <div class="pkg-img-type">
+                                            <!-- <i class="fa fa-bicycle gre"></i> -->
+                                        </div>
+                                        <h2 class="pkge-name"> Startup </h2>
+                                        <p>Branding Package</p>
                                     </div>
                                     <div class="old-price">
-                                        <span class="gre">$350 </span>
+                                        <span class="gre">$139 </span>
                                     </div>
                                     <div class="suit">
                                         <p>Suitable for newly formed organizations or small incubated startups</p>
                                     </div>
                                     <div class="list">
                                         <ul class="ticklist2 scrollbar-inner">
-                                            <li>1 Stationery Design Set Concepts</li>
-                                            <li>1 Flyer Design</li>
-                                            <li>1 Banner Design Concept (any size)</li>
-                                            <li>1 Brochure Design (Bi-fold/Tri-fold)</li>
-                                            <li>2 Stock Photos</li>
-                                            <li>T-Shirt Design (2 Concepts)</li>
-                                            <li>Menu Card Design (2 Concepts)</li>
-                                            <li>Free Social Media Banners (any 3)</li>
-                                            <li>Free Email Signature</li>
-                                            <li>Free Word Doc for Letterhead</li>
-                                            <li>3 Revisions</li>
-                                            <li>Turn Around 48-72 Hours</li>
+                                            <li>Business Card</li>
+                                            <li>Letterhead</li>
+                                            <li>Email Signature</li>
+                                            <li>Envelope</li>
+                                            <li>2 Social Media Covers</li>
+                                            <li>T-Shirt and Hat Mockup</li>
+                                            <li>Turn Around 24-48 Hours</li>
                                             <li>Print Ready Formats</li>
                                         </ul>
                                     </div>
@@ -869,7 +878,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -879,7 +888,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -887,6 +897,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Best Seller -->
                         <div class="col-lg-4 col-md-4 col-sm-12 btn-hvr">
                             <div class="package-wrapper gre-border">
                                 <div class="package-item">
@@ -905,18 +916,16 @@
                                     </div>
                                     <div class="list">
                                         <ul class="ticklist2 scrollbar-inner">
-                                            <li>2 Stationery Design Set Concepts</li>
                                             <li>2 Flyer Design</li>
                                             <li>2 Banner Design Concept (any size)</li>
                                             <li>2 Brochure Design concept (Bi-fold/Tri-fold)</li>
                                             <li>4 Stock Photos</li>
                                             <li>T-Shirt Design (3 Concepts)</li>
                                             <li>Menu Card Design (3 Concepts)</li>
-                                            <li>Free Social Media Banners (any 5)</li>
-                                            <li>Free Email Signature</li>
-                                            <li>Free Word Doc for Letterhead</li>
-                                            <li>4 Revisions</li>
-                                            <li>Turn Around 48-72 Hours</li>
+                                            <li>Social Media Banners (any 5)</li>
+                                            <li>Email Signature</li>
+                                            <li>Word Doc for Letterhead</li>
+                                            <li>Turn Around 24-48 Hours</li>
                                             <li>Print Ready Formats</li>
                                         </ul>
                                     </div>
@@ -930,7 +939,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -940,7 +949,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -948,36 +958,33 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Budget -->
                         <div class="col-lg-4 col-md-4 col-sm-12 btn-hvr">
                             <div class="package-wrapper gre-border">
                                 <div class="package-item">
                                     <div class="heading">
-                                        <div class="pkg-img-type">
-                                            <!-- <i class="fa fa-bicycle gre"></i> -->
-                                        </div>
-                                        <h2 class="pkge-name">The Ultimate</h2>
-                                        <p>LOGO PACKAGE</p>
+                                        <div class="pkg-img-type"></div>
+                                        <h2 class="pkge-name">Budget</h2>
+                                        <p>Branding PACKAGE</p>
                                     </div>
                                     <div class="old-price">
-                                        <span class="gre">$650 </span>
+                                        <span class="gre">$350 </span>
                                     </div>
                                     <div class="suit">
                                         <p>Suitable for newly formed organizations or small incubated startups</p>
                                     </div>
                                     <div class="list">
                                         <ul class="ticklist2 scrollbar-inner">
-                                            <li>4 Stationery Design Set Concepts</li>
-                                            <li>3 Flyer Design</li>
-                                            <li>3 Banner Design Concept (any size)</li>
-                                            <li>4 Brochure Design concept (Bi-fold/Tri-fold)</li>
-                                            <li>5 Stock Photos</li>
-                                            <li>T-Shirt Design (4 Concepts)</li>
-                                            <li>Menu Card Design (4 Concepts)</li>
-                                            <li>Free Social Media Banners (any 5)</li>
-                                            <li>Free Email Signature</li>
-                                            <li>Free Word Doc for Letterhead</li>
-                                            <li>Unlimited Revisions</li>
-                                            <li>Turn Around 48-72 Hours</li>
+                                            <li>1 Flyer Design</li>
+                                            <li>1 Banner Design Concept (any size)</li>
+                                            <li>1 Brochure Design (Bi-fold/Tri-fold)</li>
+                                            <li>2 Stock Photos</li>
+                                            <li>T-Shirt Design (2 Concepts)</li>
+                                            <li>Menu Card Design (2 Concepts)</li>
+                                            <li>Social Media Banners (any 3)</li>
+                                            <li>Email Signature</li>
+                                            <li>Word Doc for Letterhead</li>
+                                            <li>Turn Around 24-48 Hours</li>
                                             <li>Print Ready Formats</li>
                                         </ul>
                                     </div>
@@ -991,7 +998,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1001,7 +1008,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1034,7 +1042,7 @@
                                             <li><strong>3</strong> Banner Design</li>
                                             <li><strong>1</strong> jQuery Slider Banner</li>
                                             <li>FREE Google Friendly Sitemap</li>
-                                            <li>48 to 72 hours TAT</li>
+                                            <li>24-48 hours TAT</li>
                                             <li><strong>100%</strong> Satisfaction Guarantee</li>
                                             <li><strong>100%</strong> Unique Design Guarantee</li>
                                             <li><strong>100%</strong> Money Back Guarantee *</li>
@@ -1052,7 +1060,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1062,7 +1070,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1097,7 +1106,7 @@
                                             <li><strong>5</strong> Stock Images</li>
                                             <li>Complete W3C Certified HTML</li>
                                             <li>Google Optimised Sitemap</li>
-                                            <li>48 to 72 hours TAT</li>
+                                            <li>24-48 hours TAT</li>
                                             <li>FREE Domain & Hosting</li>
                                             <h3 style="font-weight: 500; font-size: large;">Features:</h3>
                                             <li>100% Ownership Rights</li>
@@ -1119,7 +1128,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1129,12 +1138,14 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
+                                <img class="recommended" src="./images/recommended.webp" alt="recommended">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 btn-hvr">
@@ -1148,7 +1159,7 @@
                                         <p>CMS website</p>
                                     </div>
                                     <div class="old-price">
-                                        <span class="gre"> $1,945</span>
+                                        <span class="gre"> $2549</span>
                                     </div>
                                     <!--  <div class="suit">
                                         <p>Suitable for newly formed organizations or small incubated startups</p>
@@ -1206,7 +1217,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1216,7 +1227,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1281,7 +1293,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1291,7 +1303,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1362,7 +1375,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1372,7 +1385,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1443,7 +1457,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1453,7 +1467,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1507,7 +1522,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1517,7 +1532,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1570,7 +1586,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1580,7 +1596,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1632,7 +1649,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1642,7 +1659,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1693,7 +1711,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1703,7 +1721,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -1761,7 +1780,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1771,12 +1790,14 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
+                                <img class="recommended" src="./images/recommended.webp" alt="recommended">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 btn-hvr">
@@ -1837,7 +1858,7 @@
                                             <li class="pkge-ordr">
                                                 <a href="#" class="gre-bg">Order Now</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="actions row">
@@ -1847,7 +1868,8 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-xs-6">
-                                            <a href="javascript:;" class="action-chat clearfix gre" tabindex="0">
+                                            <a onclick="openTawkChat()" href="javascript:;"
+                                                class="action-chat clearfix gre" tabindex="0">
                                                 <span><small class="gre">Want to discuss?</small> Live Chat Now</span>
                                             </a>
                                         </div>
@@ -2044,8 +2066,7 @@
                                                 <a href="custom-logo-design.html">Custom Logo Design</a>
                                             </li>
                                             <li>
-                                                <a href="custom-website-design-development.html">Custom Website Design &
-                                                    Development</a>
+                                                <a href="custom-website-design-development.html">Website Development</a>
                                             </li>
                                             <li>
                                                 <a href="video-animation.html">Video Animation</a>
