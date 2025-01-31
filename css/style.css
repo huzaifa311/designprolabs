@@ -118,6 +118,7 @@ ul {
 
 header {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 3632;
     transition: 0.5s;
@@ -1421,12 +1422,18 @@ footer {
 
 .cmpo-prc-inner ul li:before {
     content: "\f05d";
+    /* Font Awesome icon */
+    font-family: "Font Awesome 6 Free";
+    /* Correct Font Family */
+    font-weight: 900;
+    /* Required for solid icons */
     position: absolute;
     font-size: 13px;
     color: #ffb101;
     left: 0px;
     bottom: 0px;
 }
+
 
 .cmpo-prc-inner ul li.cmp-heading {
     font-weight: bold;
@@ -1870,7 +1877,8 @@ span.main_price {
 }
 
 .adPD {
-    padding-top: 180px !important;
+    padding-top: 80px !important;
+    margin-top: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -1902,12 +1910,17 @@ span.main_price {
 
 .ticklist2 li:before {
     content: "\f05d";
+    font-family: "Font Awesome 5 Free";
+    /* Ensure FontAwesome is used */
+    font-weight: 900;
+    /* Required for some icons */
     color: var(--theme-color);
     position: absolute;
     font-size: 15px;
     left: 4px;
     top: 0px;
 }
+
 
 .ticklist2 li.heading:before {
     display: none;
@@ -2172,7 +2185,9 @@ span.main_price {
 }
 
 .chat-con ul {
+    display: flex;
     padding-left: 0px;
+    justify-content: center;
 }
 
 
@@ -5886,7 +5901,7 @@ body {
     }
 }
 
-.tickContainer img{
+.tickContainer img {
     display: inline !important;
     width: 19px;
     height: 19px;
@@ -5902,25 +5917,27 @@ body {
 .tickContainer li {
     display: inline-block !important;
 }
+
 @media (max-width: 500px) {
-    .tickContainer li{
+    .tickContainer li {
         font-size: 10px !important;
     }
+
     .tickContainer div img {
         width: 12px;
         height: 12px;
     }
 }
 
-.-cta-btn{
+.-cta-btn {
     z-index: 50 !important;
 }
 
-.marketing-Pading>div{
+.marketing-Pading>div {
     padding-right: 0 !important;
 }
 
-.copy-right{
+.copy-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -5930,29 +5947,38 @@ body {
     color: #cbd6e2;
 }
 
-.copy-right p{
+.copy-right p {
     margin: 0 !important;
 }
 
 @media (max-width: 500px) {
-    .copy-right{
+    .copy-right {
         justify-content: center;
         flex-direction: column;
     }
 }
 
-.copy-right .policy{
+.copy-right .policy {
     display: flex;
     align-items: center;
 }
 
-.copy-right .policy a{
+.copy-right .policy a {
     text-decoration: none;
     color: #cbd6e2;
 }
 
-.copy-right .social{
+.copy-right .social {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.orderNow {
+    display: flex;
+    justify-content: center;
 }

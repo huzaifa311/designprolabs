@@ -10,10 +10,6 @@ var Tawk_API = Tawk_API || {},
   s0.parentNode.insertBefore(s1, s0);
 })();
 
-document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
-});
-
 new WOW().init();
 
 $("#carouselFade").carousel();
