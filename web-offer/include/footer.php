@@ -193,7 +193,7 @@
     </div>
 </div>
 
-</body>
 <?php include 'include/js.php';?>
+</body>
 
 </html>

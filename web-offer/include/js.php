@@ -89,9 +89,20 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
 
-    Tawk_API.onLoad = function () {
-        Tawk_API.maximize();
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_API.onChatStarted = function () {
+        console.log("Tawk.to Chat Started");
+
+        // Send event to GTM
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'event': 'tawkChatStarted'
+        });
     };
 </script>
+
+
+
+
 
 <!--End of Tawk.to Script-->
