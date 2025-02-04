@@ -101,6 +101,36 @@
     };
 </script>
 
+<script>
+    Tawk_API = Tawk_API || {};
+    // Function to extract **name** from chat messages
+    function extractName(message) {
+        var namePattern = /(?:my name is|I'm|I am|this is|name:)\s*([A-Za-z\s]+)/i;
+        var match = message.match(namePattern);
+        return match ? match[1].trim() : "";
+    }
+    // Function to extract **email** from chat messages
+    function extractEmail(message) {
+        var emailPattern = /[\w.-]+@[a-zA-Z.-]+\.[a-zA-Z]{2,}/g;
+        var match = message.match(emailPattern);
+        return match ? match[0] : "";
+    }
+    // Function to extract **U.S. phone numbers** from chat messages
+    function extractPhone(message) {
+        var phonePattern = /(\+1\s?)?(\(?\d{3}\)?[\s.-]?)\d{3}[\s.-]?\d{4}/g;
+        var match = message.match(phonePattern);
+        return match ? match[0] : "";
+    }
+    // Push extracted data to GTM Data Layer when a user sends a message
+    Tawk_API.onChatMessageVisitor = function (message) {
+        dataLayer.push({
+            event: "tawkto_Interactions",
+            "chat name": extractName(message),   // Matching GTM variable
+            "Chat Email": extractEmail(message), // Matching GTM variable
+            "chatPhoneNumber": extractPhone(message) // Matching GTM variable
+        });
+    };
+</script>
 
 
 
