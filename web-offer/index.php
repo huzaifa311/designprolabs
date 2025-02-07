@@ -9,9 +9,8 @@ include 'include/header.php'; ?>
         Custom, E-commerce & Shopify Website Development In Just
         <span class="text-[#FE5F00]">$249</span>
       </h1>
-      <p class="text-white mt-2 md:mt-0 text-xl">
-        Make a powerful online impact with a custom, user-friendly, and professionally designed website tailored to your
-        business needs.
+      <p class="text-white mt-2 md:mt-0 text-xl lg:pr-16">
+        Get a sleek, user-friendly, and professionally designed custom, e-commerce, or Shopify website tailored to your business.
       </p>
       <ul class="space-y-2 my-3">
         <li>
