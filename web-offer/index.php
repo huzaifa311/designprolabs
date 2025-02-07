@@ -3,12 +3,11 @@ include 'include/header.php'; ?>
 
 <section id="home" class="sm:!h-[109vh] !h-fit w-full pt-32 relative pb-20 flex items-center">
   <div
-    class="grid md:grid-cols-5 grid-cols-1 md:gap-0 gap-10 items-center sm:w-[85%] w-[90%] mx-auto z-20  2xl:w-[1500px]">
-    <div class="col-span-3 relative">
-      <h1 class="sm:text-5xl text-2xl font-bold text-white md:leading-[55px]">
-        Professional Website Development Starting <br> From
+    class="grid md:grid-cols-5 grid-cols-1 md:gap-0 gap-y-10 items-center sm:w-[85%] w-[90%] mx-auto z-20  2xl:w-[1500px]">
+    <div class="col-span-3 relative md:pr-[60px]">
+      <h1 class="sm:text-[2.5rem] text-2xl font-bold text-white md:leading-[50px]">
+        Custom, E-commerce & Shopify Website Development In Just
         <span class="text-[#FE5F00]">$249</span>
-        Only
       </h1>
       <p class="text-white mt-2 md:mt-0 text-xl">
         Make a powerful online impact with a custom, user-friendly, and professionally designed website tailored to your
@@ -75,7 +74,7 @@ include 'include/header.php'; ?>
       </div>
     </div>
     <form onSubmit="handleBannerForm(event, 'BannerFormWebsite')"
-      class="bg-white shadow-2xl !border-2 !border-[#E4FF3E] !outline-[#E4FF3E] py-4 px-8 md:w-[93%] col-span-2 w-full h-fit mx-auto rounded-xl relative">
+      class="bg-white shadow-2xl !border-2 !border-[#E4FF3E] !outline-[#E4FF3E] py-4 px-8 md:w-[93%] col-span-2 !w-full h-fit mx-auto rounded-xl relative">
       <h1 class="text-center text-[#FE5F00] text-2xl font-bold mb-3">100% Money Back Guarantee</h1>
       <div class="space-y-4">
         <div>
