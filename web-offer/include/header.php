@@ -10,7 +10,6 @@
     <title>
         <?php echo isset($title) ? $title : 'Home'; ?>
     </title>
-    <meta name="google-site-verification" content="eoQvGFbRf4tINHldCoPIUiDqaD8icW2ghKB_3s__4Og" />
 </head>
 
 <body class="hompg">

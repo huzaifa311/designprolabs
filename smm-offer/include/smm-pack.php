@@ -5,17 +5,17 @@
             <div class="col-md-4 pack-item">
                 <div class="pack-inn">
                     <div class="pack-header">
-                        <h3 class="pack-name"> <span>$</span>399</h3>
+                        <h3 class="pack-name"> <span>$</span>299</h3>
                         <a class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#FE6F19] !text-black border focus:outline-none"><button style="outline: none">Starter Plan</button></a>
                     </div>
                     <div class="pack-list pack-ul">
                         <ul>
-                            <li class="dot-before">1 Social Media Platform (Facebook or Instagram)</li>
+                            <li class="dot-before">Social Media Platforms (Facebook or Instagram)</li>
                             <li class="dot-before">10 Custom Branded Posts</li>
                             <li class="dot-before">Captions + Hashtag Strategy</li>
                             <li class="dot-before">Page Setup / Optimization</li>
-                            <li class="dot-before">1 Ad Creative (Static or Reel Format)</li>
-                            <li class="dot-before">Basic Insights Report</li>
+                            <li class="dot-before">Customize Ad Creative (Static or Reel Format)</li>
+                            <li class="dot-before">Bi-weekly Insights Report</li>
                             <li class="dot-before">100% Satisfaction Guarantee</li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@
             <div class="col-md-4 pack-item">
                 <div class="pack-inn">
                     <div class="pack-header">
-                        <h3 class="pack-name"> <span>$</span>799</h3>
+                        <h3 class="pack-name"> <span>$</span>499</h3>
                         <a class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#FE6F19] !text-black border focus:outline-none"><button style="outline: none">Growth Plan</button></a>
                     </div>
                     <div class="pack-list pack-ul">
@@ -44,10 +44,10 @@
                             <li class="dot-before">2 Social Media Platforms (Facebook + Instagram)</li>
                             <li class="dot-before">20 Custom Branded Posts</li>
                             <li class="dot-before">Captions + Hashtag Strategy</li>
-                            <li class="dot-before">3 Ad Creatives (Static + Video)</li>
-                            <li class="dot-before">Monthly Growth Report</li>
+                            <li class="dot-before">Customize Ad Creatives (Static + Video)</li>
+                            <li class="dot-before">Bi-weekly Growth Report</li>
                             <li class="dot-before">Competitor Research</li>
-                            <li class="dot-before">Social Inbox Management</li>
+                            <li class="dot-before">Social Inbox/Comment Management</li>
                             <li class="dot-before">Engagement Boost Strategy</li>
                             <li class="dot-before">100% Satisfaction Guarantee</li>
                         </ul>
@@ -69,7 +69,7 @@
             <div class="col-md-4 pack-item">
                 <div class="pack-inn">
                     <div class="pack-header">
-                        <h3 class="pack-name"> <span>$</span>1299</h3>
+                        <h3 class="pack-name"> <span>$</span>999</h3>
                         <a class="px-4 py-2 font-bold justify-center flex item-center rounded-full text-lg !border-[#FE6F19] !text-black border focus:outline-none"><button style="outline: none">Pro Plan</button></a>
                     </div>
                     <div class="pack-list pack-ul">
@@ -77,13 +77,14 @@
                         <li class="dot-before">3-4 Platforms (Facebook, Instagram, LinkedIn, TikTok)</li>
                         <li class="dot-before">30+ Custom Branded Posts</li>
                         <li class="dot-before">Captions + Advanced Hashtag Targeting</li>
-                        <li class="dot-before">5+ Ad Creatives (Multi-format)</li>
+                        <li class="dot-before">Customize Ad Creatives (Multi-format)</li>
                         <li class="dot-before">A/B Testing for Ads</li>
                         <li class="dot-before">Performance Analytics & Reporting</li>
-                        <li class="dot-before">Strategy Call Every Month</li>
+                        <li class="dot-before">Strategy Call after every Two Weeks</li>
                         <li class="dot-before">Social Media Calendar</li>
                         <li class="dot-before">Community Engagement & DMs</li>
-                        <li class="dot-before">Dedicated Social Media Manager</li>
+                        <li class="dot-before">Customized Scaling Strategy</li>
+                        <li class="dot-before">100% Satisfaction Guarantee</li>
                     </ul>
 
                     </div>

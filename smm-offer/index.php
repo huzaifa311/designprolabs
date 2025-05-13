@@ -6,8 +6,8 @@ include 'include/header.php'; ?>
     class="grid md:grid-cols-5 grid-cols-1 md:gap-0 gap-y-10 items-center sm:w-[85%] w-[90%] mx-auto z-20  2xl:w-[1500px]">
     <div class="col-span-3 relative md:pr-[60px]">
       <h1 class="sm:text-[2.5rem] text-2xl font-bold text-white md:leading-[50px] md:pr-[140px]">
-        Social Media Marketing Strategy Starting at Just
-        <span class="text-[#FE5F00]">$249</span>
+        Your <span class="text-[#FE5F00]">Social Media</span> Marketing Starting at Just
+        <span class="text-[#FE5F00]">$299</span>
       </h1>
       <p class="text-white mt-2 md:mt-0 text-xl lg:pr-16">
         Get a personalized, data-driven, and results-oriented social media marketing strategy that helps you grow,
@@ -107,7 +107,7 @@ include 'include/header.php'; ?>
 <section id="portfolio" class="sm:w-[85%] w-[90%] mx-auto my-20 2xl:w-[1500px]">
   <h1 class="text-center text-[46px] font-bold">Our Portfolio</h1>
   <div class="flex justify-center">
-    <p class="text-lg mt-1 text-center md:max-w-[800px]">Discover our proven marketing and e‑commerce solutions—from engaging social campaigns to high‑converting online stores. Choose a category below.</p>
+    <p class="text-lg mt-1 text-center md:max-w-[750px]">Discover our proven marketing and e‑commerce solutions—from engaging social campaigns to high‑converting online stores.</p>
   </div>
 
 

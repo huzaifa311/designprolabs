@@ -1281,6 +1281,7 @@ footer {
 .footer-logo img {
     padding-bottom: 10px;
     height: 130px !important;
+    object-fit: contain;
 }
 
 .footer-logo .dmca-protected {
@@ -5996,4 +5997,10 @@ html {
 
 .cursor-pointer{
     cursor: pointer !important;
+}
+
+footer .claims{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
