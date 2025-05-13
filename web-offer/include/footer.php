@@ -33,7 +33,7 @@
             <p class="md:w-[65%] text-left md:text-center text-sm text-gray-500">These Terms will be applied fully and
                 affect to your use of this Website. By using this Website, you agreed to accept all terms and conditions
                 written in here. You must not use this Website if you disagree with any of these Website Standard Terms
-                and Conditions.</p>
+                and Conditions. Powered by Canada Incorporation 16347371</p>
             <div class="flex items-center gap-3 flex-wrap">
                 <div>
                     <a href="https://www.instagram.com/design.pro.labs/" target="_blank">
