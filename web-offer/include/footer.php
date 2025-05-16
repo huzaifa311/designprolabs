@@ -23,7 +23,7 @@
                         <a class="telicon hover:text-white !mx-0 !text-left" href="javascript:;">
                             <i class="fa !mr-1 fa-map-marker"></i>
                             <strong>Address :</strong>
-                            5 Queen Alexandra Lane, Bowmanville Ontario, L1C 7E5, Canada
+                            5900 Balcones Drive #7494 Austin, TX 78731
                         </a>
                     </li>
                 </ul>
