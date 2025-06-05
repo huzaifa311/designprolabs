@@ -15,7 +15,7 @@
                         <ul>
                             <li class="dot-before">3 Custom Logo Design Concepts</li>
                             <li class="dot-before">1 Dedicated Designer</li>
-                            <li class="dot-before">4 Revisions</li>
+                            <li class="dot-before">3 Revisions</li>
                             <li class="dot-before">2 hours TAT</li>
                             <li class="dot-before">100% Unique Design Guarantee</li>
                             <li class="dot-before">100% Satisfaction Guarantee</li>

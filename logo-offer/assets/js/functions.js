@@ -210,7 +210,7 @@ const handleBannerForm = async e => {
 
   try {
     // Make a POST request to the API endpoint
-    await fetch("http://localhost:3000/logo-offer-landing-page", {
+    await fetch("https://form-submission-google-sheet.vercel.app/logo-offer-landing-page", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -1,4 +1,4 @@
-<a href="https://wa.me/+14378262236" target="_blank" class="fixed md:bottom-6 bottom-3 md:right-36 right-24 z-50">
+<a href="https://wa.me/+14372949609" target="_blank" class="fixed md:bottom-6 bottom-3 md:right-9 right-6 z-50">
     <img src="assets/images/whatsapp.svg" alt="whatsapp" class=" shadow-lg  h-14">
 </a>
 
