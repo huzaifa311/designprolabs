@@ -7,7 +7,7 @@ include 'include/header.php'; ?>
     <div class="col-span-3 relative md:pr-[60px]">
       <h1 class="sm:text-[2.5rem] text-2xl font-bold text-white md:leading-[50px]">
         Custom, E-commerce & Shopify Website Development In Just
-        <span class="text-[#FE5F00]">$249</span>
+        <span class="text-[#FE5F00]">$299</span>
       </h1>
       <p class="text-white mt-2 md:mt-0 text-xl lg:pr-16">
         Get a sleek, user-friendly, and professionally designed custom, e-commerce, or Shopify website tailored to your business.
@@ -26,7 +26,7 @@ include 'include/header.php'; ?>
             <div class="h-4 w-4 rounded-full flex items-center justify-center bg-white whitespace-nowrap">
               <img src="assets/images/check.png" alt="tick" class="h-[11px] object-fit">
             </div>
-            <p class="text-white text-[15px] font-light	">5 Revisions
+            <p class="text-white text-[15px] font-light	">3 Revisions
             </p>
           </div>
         </li>
@@ -182,7 +182,7 @@ include 'include/header.php'; ?>
           <i class="fas fa-layer-group text-4xl text-orange-600"></i>
         </div>
         <h3 class="text-xl font-semibold text-gray-800">One Pager Website</h3>
-        <p class="text-5xl font-bold text-orange-600"><span class="text-3xl font-semibold">$</span>249</p>
+        <p class="text-5xl font-bold text-orange-600"><span class="text-3xl font-semibold">$</span>299</p>
         <a href="https://www.paypal.com/ncp/payment/JY6SR7PE89PF8" class="hidden md:inline">
           <button
             class="mt-3 hover:!border-[#FE5F00] hover:!border-2 px-6 py-2 bg-orange-600 font-medium rounded-md hover:bg-white transition-all hover:!text-[#FE5F00] !text-white">
