@@ -6,8 +6,7 @@ include 'include/header.php'; ?>
     class="grid md:grid-cols-5 grid-cols-1 md:gap-0 gap-y-10 items-center sm:w-[85%] w-[90%] mx-auto z-20  2xl:w-[1500px]">
     <div class="col-span-3 relative md:pr-[60px]">
       <h1 class="sm:text-[2.5rem] text-2xl font-bold text-white md:leading-[50px] md:pr-[140px]">
-        Your <span class="text-[#FE5F00]">Social Media</span> Marketing Starting at Just
-        <span class="text-[#FE5F00]">$299</span>
+        Turn Scrolls into Sales with our<span class="text-[#FE5F00]"> Expert Social Media Marketing </span>
       </h1>
       <p class="text-white mt-2 md:mt-0 text-xl lg:pr-16">
         Get a personalized, data-driven, and results-oriented social media marketing strategy that helps you grow,
@@ -19,7 +18,7 @@ include 'include/header.php'; ?>
             <div class="h-4 w-4 rounded-full flex items-center justify-center bg-white whitespace-nowrap">
               <img src="assets/images/check.png" alt="tick" class="h-[11px] object-fit">
             </div>
-            <p class="text-white text-[15px] font-light	">Tailored Marketing Strategy</p>
+            <p class="text-white text-[15px] font-light	">Meta Ad Campaign Setup (Facebook & Instagram)</p>
           </div>
         </li>
         <li>
@@ -27,8 +26,7 @@ include 'include/header.php'; ?>
             <div class="h-4 w-4 rounded-full flex items-center justify-center bg-white whitespace-nowrap">
               <img src="assets/images/check.png" alt="tick" class="h-[11px] object-fit">
             </div>
-            <p class="text-white text-[15px] font-light	">5 Professionally Designed Posts
-            </p>
+            <p class="text-white text-[15px] font-light	">Professional Post Designs & Reels</p>
           </div>
         </li>
         <li>
@@ -36,9 +34,7 @@ include 'include/header.php'; ?>
             <div class="h-4 w-4 rounded-full flex items-center justify-center bg-white whitespace-nowrap">
               <img src="assets/images/check.png" alt="tick" class="h-[11px] object-fit">
             </div>
-            <p class="text-white text-[15px] font-light	">Platform Setup & Optimization
-
-            </p>
+            <p class="text-white text-[15px] font-light	">Custom Marketing Funnel Setup</p>
           </div>
         </li>
         <li>
@@ -69,7 +65,7 @@ include 'include/header.php'; ?>
         <a href="javascript:;" name="for $244" data-fancybox="" title="Lets Get Started"
           class="md:!px-4 md:py-0 p-2 flex item-center rounded-lg text-lg md:h-16 !hover:text-black bg-[#FE6F19] !border-[#FE6F19] text-white border focus:outline-none transition-all"
           data-src="#popupform"><button style="outline:none;"
-            class="hover:text-black transition-all hover:!text-white hover:!opacity-90">Claim Your Website
+            class="hover:text-black transition-all hover:!text-white hover:!opacity-90">Get Started
             Now</button></a>
       </div>
     </div>
@@ -128,138 +124,11 @@ include 'include/header.php'; ?>
         audience grow!</p>
     </div>
     <div class="flex flex-wrap items-center gap-3 justify-center !mt-8">
-      <div>
-        <a href="#pricingSection"
-          class="border border-white text-white bg-transparent rounded py-[14px] px-[11px] text-[18px] font-medium text-lg">See
-          Pricing</a>
-      </div>
       <button data-src="#popupform" name="for $244" data-fancybox="" title="Lets Get Started"
         class="py-[14px] px-[11px] text-[18px] font-medium text-lg bg-[#FE5F00] text-white rounded">Let's Work
         Together</button>
     </div>
   </div>
-</section>
-
-<section class="packages-block !mt-20 !p-0" id="pricingSection">
-  <div class="sm:w-[85%] w-[90%] mx-auto 2xl:w-[1500px]">
-    <h2 class="text-3xl mb-3 font-semibold mx-auto w-full text-center">
-      Pricing Plans That Drive Results
-    </h2>
-    <div class="flex justify-center">
-
-      <p class="text-center text-wrap -mt-2 md:max-w-[860px] mx-auto">
-        At <span class="text-[#FE5F00] !inline-block !-mt-1">Design Pro Labs,</span> we craft targeted social media
-        campaigns
-        that bring visibility, engagement, and leads to your business — all
-        at a price designed to fit your goals and budget.
-      </p>
-    </div>
-  </div>
-  <div class="!max-w-[75rem] mx-auto mt-8 mb-8 md:mb-0 shadow-lg">
-    <div
-      class="bg-white relative hover:bg-[#FE5F00] rounded-lg p-6 md:py-12 border-4 border-orange-500 flex flex-wrap !flex-col md:!flex-row bg-before items-center "
-      style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);">
-      <span class="after-for-big-pricing"></span>
-      <div class="text-center w-full sm:w-1/3 !hover:bg-transparent">
-        <div class="flex justify-center mb-1">
-          <i class="fas fa-layer-group text-4xl text-orange-600"></i>
-        </div>
-        <h3 class="text-xl font-semibold text-gray-800">Social Media Starter Package</h3>
-        <p class="text-5xl font-bold text-orange-600"><span class="text-3xl font-semibold">$</span>249</p>
-        <a href="https://www.paypal.com/ncp/payment/JY6SR7PE89PF8" class="hidden md:inline">
-          <button
-            class="mt-3 hover:!border-[#FE5F00] hover:!border-2 px-6 py-2 bg-orange-600 font-medium rounded-md hover:bg-white transition-all hover:!text-[#FE5F00] !text-white">
-            <i class="fas fa-hand-pointer"></i> Buy Now - Click
-          </button>
-        </a>
-      </div>
-      <div class="mt-8 md:mt-0 sm:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 !hover:bg-transparent">
-        <div>
-          <h4 class="text-lg font-semibold text-gray-800 mb-3">Features</h4>
-          <ul class="text-sm text-gray-600 space-y-2">
-            <li class="flex items-start text-black text-md">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>
-              1 Platform Setup (Facebook or Instagram)
-            </li>
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>5
-              7 Branded Posts (with Captions & Hashtags)
-
-            </li>
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>
-              Strategy Call with Expert
-
-            </li>
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>
-              Competitor Analysis
-
-            </li>
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>
-              100% Satisfaction Guarantee
-
-
-            </li>
-
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>
-              100% Money Back Guarantee*
-
-
-
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h4 class="text-lg font-semibold text-gray-800 mb-3">Add-ons
-          </h4>
-          <ul class="text-sm text-gray-600 space-y-2">
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>
-              Add Extra Platform (Instagram, LinkedIn, etc.) — Additional $100*
-
-            </li>
-            <li class="flex items-start text-black">
-              <i
-                class="fas fa-check text-[#FE5F00] fa-xs	mt-1 mr-2 border border-1 !border-[#FE5F00] px-1 py-2 rounded-full"></i>Content
-              Run Paid Ads (Meta Ad Setup + 1 Ad Creative) — Additional $100*
-
-            </li>
-          </ul>
-        </div>
-      </div>
-      <img class="absolute left-0 top-0 h-36" src="assets/images/promotional.png" />
-      <a class="md:hidden inline" href="https://www.paypal.com/ncp/payment/JY6SR7PE89PF8">
-        <button
-          class="mt-3 hover:!border-[#FE5F00] hover:!border-2 px-6 py-2 bg-orange-600 font-medium rounded-md hover:bg-white transition-all hover:!text-[#FE5F00] !text-white">
-          <i class="fas fa-hand-pointer"></i> Buy Now - Click
-        </button>
-      </a>
-    </div>
-  </div>
-  <div class="container -mt-8">
-    <div class="row">
-      <div class="tab-content ">
-        <div id="logo" class="tab-pane fade in active show">
-          <!-- logo_pack -->
-          <?php include 'include/smm-pack.php'; ?>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="packages-block !mt-20 !p-0" id="pricingSection">
-
-
 </section>
 
 <section class="sm:w-[85%] w-[90%] mx-auto py-20 2xl:w-[1500px] space-y-10">

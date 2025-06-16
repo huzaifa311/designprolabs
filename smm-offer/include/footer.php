@@ -22,8 +22,7 @@
                     <li class="!mx-0 !text-left">
                         <a class="telicon hover:text-white !mx-0 !text-left" href="javascript:;">
                             <i class="fa !mr-1 fa-map-marker"></i>
-                            <strong>Address :</strong>
-                            5900 Balcones Drive #7494 Austin, TX 78731
+                            <strong>USA | CAN | UAE | UK | AU</strong>
                         </a>
                     </li>
                 </ul>
